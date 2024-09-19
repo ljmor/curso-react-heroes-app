@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const HeroCard = ({ heroe }) => {
 
-    const heroImgUrl = `/assets/heroes/${heroe.id}.jpg`;
+    const heroImgUrl = `/heroes/${ heroe.id }.jpg`;
 
     return (
         <>
